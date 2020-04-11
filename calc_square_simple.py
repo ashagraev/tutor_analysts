@@ -7,14 +7,13 @@ pi = 3.1415926535
 
 exactSquare = radius * radius * pi / 4
 
-pointsInside = 0
-totalPoints = 0
-
 iterations = 100
 
 errors = []
 
 for epoch in range(100):
+    pointsInside = 0
+    totalPoints = 0
     for i in range(100):
         x, y = random.random(), random.random()
 
