@@ -17,7 +17,7 @@ cellId = 0
 for epoch in range(100):
     pointsInside = 0
     totalPoints = 0
-    for i in range(100):
+    for i in range(10000):
         cellVerticalIdx = (cellId / cellsCount) % cellsCount
         cellHorizontalIdx = cellId % cellsCount
         cellId += 1

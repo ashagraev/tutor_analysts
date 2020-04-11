@@ -14,7 +14,7 @@ errors = []
 for epoch in range(100):
     pointsInside = 0
     totalPoints = 0
-    for i in range(100):
+    for i in range(10000):
         x, y = random.random(), random.random()
 
         sqDistanceFromOrigin = x * x + y * y
